@@ -1,8 +1,10 @@
 import logo from "../../assets/logo.png";
+import VideoPlayer from "../video/videoPlayer";
 import "./funnel.css";
 
 
 const Funnel = () => {
+  
   return (
     <>
       <div className='home-container'>
@@ -21,7 +23,7 @@ const Funnel = () => {
           </div>
         </div>
         <div className="section section_2">
-
+          <VideoPlayer />
         </div>
       </div>
     </>
