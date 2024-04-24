@@ -8,5 +8,6 @@ const UserDetailsModal = ({ isModalOpen }) => {
     </>
   );
 };
+// test change in the file
 
 export default UserDetailsModal;
